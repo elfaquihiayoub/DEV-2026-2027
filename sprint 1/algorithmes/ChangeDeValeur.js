@@ -10,7 +10,7 @@ function valueSwapping(v1,v2){
 }
 
 console.log(valueSwapping(10,20));
-// algorithme 2 
+
 
 
 
