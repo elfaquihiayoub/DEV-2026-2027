@@ -21,7 +21,7 @@ for(i=0;i<nombers.length;i++){
 
 if(isFound){
     let ifAlreadyExist =false;
-
+k
     for (let k = 0; k < repetition.length; k++) {
         if (currentPlaceValue == repetition[k]) {
             ifAlreadyExist = true;
