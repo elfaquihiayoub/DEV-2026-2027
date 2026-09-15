@@ -12,9 +12,9 @@ here we can find that alot of infos are repeted like nom_client , nom_produit _ 
 ## identifient fonctionel
 
 here we can use :
-	Id_client -> nom_client + email_client
-	 id_produit -> nom_produit+prix_produit
-	 id_command ->numero_command +date_command,quantite_commandee
+	 Id_client -> nom_client + email_client;
+	 id_produit -> nom_produit+prix_produit;
+	 id_command ->numero_command +date_command,quantite_commandee;
 	 
 
 
