@@ -15,7 +15,7 @@ here we can use :
 	 Id_client -> nom_client + email_client;
 	 id_produit -> nom_produit+prix_produit;
 	 id_command ->numero_command +date_command+id_produit+id_client;
-	 id_produit+numero_client-> quantity_command;
+	 id_produit+id_command-> quantity_command;
 	 
 
 
@@ -23,7 +23,8 @@ here we can use :
 after fixing the problems we arived with these 3 tables 
 	-  CLIENT(id_client , nom_client , email_client );
 	- PRODUIT(id_produit , nom_produit , prix_produit );
-	- COMMAND(id_command , numero_comand  ,date_command,quantite_commandee, id_client , id_produit )
+	- COMMAND(id_command , numero_comand  ,date_command, id_client , id_produit )
+	- Quantity_command(id_quantity_command,id_produit,id_client)
 
 
 ## command table
